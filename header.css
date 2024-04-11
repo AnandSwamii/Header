@@ -3,33 +3,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .main
 {
-   width: 100%;
-   background-color: #526d76;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 1vw 3vw;
-}
+    width: 100%;
+    display: flex;
+    background-color: #526d76;
+    align-items: center;
+    justify-content: space-between;
+    height: 105px;
+    padding: 25PX  50px;
 
+}
 .main ul{
     display: flex;
     list-style: none;
-    gap: 4vw;
+    gap: 7px;
+    align-items: center;
+    
+}
+.header a
+{
+  text-decoration: none;  
+  border: 1.5px solid #ffffff8c;
+  border-radius: 28px;
+  font-size: 18px;
+  padding: 15px 17px ;
+  color: white;
 }
 
-.main a{
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
+.login a
+{
+    margin: 0PX  50PX 0PX 150PX;
+    background-color: darkblue;
+    border-radius: 25px;
 
-.button a{
-    margin: 0 3vw;
-    background-color: blue;
 }
+.background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.main img
+{
+   margin: 14px 11px 3px 0px;
+}
