@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table
+{
+background-color: orangered;
+color: white;
+height: 615px;
+width: 100%;
+text-align: center;
+border: 5px solid white;
+border-collapse: collapse;
+}
+tr,th,td{
+    border: 3px dotted white;
+}
